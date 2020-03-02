@@ -7,9 +7,9 @@ class CommandLineInterface
   BASE_PATH = "https://learn-co-curriculum.github.io/student-scraper-test-page/"
 
   def run
-    self.make_students
-    self.add_attributes_to_students
-    self.display_students
+    make_students
+    add_attributes_to_students
+    display_students
   end
 
   def make_students
